@@ -1,8 +1,15 @@
 {
-  "workbench.colorTheme": "Default Dark+ Experimental",
+  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.iconTheme": "fira-code-material-minimal",
   "editor.fontFamily": "fira-code-nerd, FiraCode Nerd Font, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.unicodeHighlight.allowedLocales": {
+    "ru": true,
+    "uk": true
+  },
+
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
   "redhat.telemetry.enabled": true,
@@ -12,12 +19,6 @@
   "git.openRepositoryInParentFolders": "never",
 
   "typescript.tsserver.watchOptions": {},
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.unicodeHighlight.allowedLocales": {
-    "ru": true,
-    "uk": true
-  },
 
   "[dart]": {
     "editor.formatOnSave": true,
